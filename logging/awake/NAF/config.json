@@ -1,0 +1,38 @@
+{
+    "ac_kwargs":	{},
+    "act_noise":	0.1,
+    "actor_critic":	"mlp_actor_critic",
+    "batch_size":	100,
+    "env_fn":	"<function <lambda> at 0x1366a0ef0>",
+    "epochs":	10,
+    "exp_name":	"transport_awake",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x1366a2fd0>":	{
+            "epoch_dict":	{},
+            "exp_name":	"transport_awake",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"logging/awake/NAF/",
+            "output_file":	{
+                "<_io.TextIOWrapper name='logging/awake/NAF/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"transport_awake",
+        "output_dir":	"logging/awake/NAF/"
+    },
+    "max_ep_len":	1000,
+    "pi_lr":	0.001,
+    "polyak":	0.995,
+    "q_lr":	0.001,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "seed":	888,
+    "start_steps":	1000000.0,
+    "steps_per_epoch":	100
+}
