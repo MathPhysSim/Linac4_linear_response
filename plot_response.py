@@ -21,5 +21,5 @@ hm = sns.heatmap(df,
                  cmap="YlGnBu")
 plt.title('Horizontal response', size = 18)
 plt.tight_layout()
-plt.savefig('Response_matrix.pdf')
+plt.savefig('Response_matrix.png')
 plt.show()
